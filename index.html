@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Alpha Test · Flashcards</title>
+<title>Alpha Test · Architettura</title>
 <style>
   :root{--bg:#171614;--card:#2a2722;--ink:#f4f1ea;--muted:#a19f9c;--accent:#e9be3b;}
   *{box-sizing:border-box}
@@ -16,17 +16,20 @@
     border-radius:12px;font-size:16px;transition:background .15s}
   a:hover{background:#332f28}
   a .n{color:var(--accent);font-weight:600;margin-right:8px}
+  li.soon a{opacity:.5;pointer-events:none}
+  li.soon a::after{content:"presto";float:right;font-size:12px;color:var(--muted);font-weight:400}
 </style>
 </head>
 <body>
   <h1>Alpha Test · Architettura</h1>
-  <p class="sub">Flashcard viewers per capitolo</p>
+  <p class="sub">Manuale di preparazione — sezioni</p>
   <ul>
-    <li><a href="1-comprensione/"><span class="n">1</span>Comprensione di testi</a></li>
-    <li><a href="2-logica-verbale/"><span class="n">2</span>Logica verbale</a></li>
-    <li><a href="3-ragionamento-logico/"><span class="n">3</span>Ragionamento logico</a></li>
-    <li><a href="4-5-mat-successioni/"><span class="n">4–5</span>Matematica e successioni</a></li>
-    <li><a href="6-cultura-generale/"><span class="n">6</span>Cultura generale</a></li>
+    <li class="soon"><a href="#"><span class="n">1</span>Introduzione</a></li>
+    <li><a href="arte/"><span class="n">2</span>Arte, Architettura e Storia</a></li>
+    <li class="soon"><a href="#"><span class="n">3</span>Disegno e Rappresentazione</a></li>
+    <li><a href="logica/"><span class="n">4</span>Ragionamento Logico e Cultura Generale</a></li>
+    <li class="soon"><a href="#"><span class="n">5</span>Matematica</a></li>
+    <li class="soon"><a href="#"><span class="n">6</span>Fisica</a></li>
   </ul>
 </body>
 </html>
